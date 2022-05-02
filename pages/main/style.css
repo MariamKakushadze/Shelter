@@ -1,0 +1,863 @@
+body{
+    width: 1280px;
+    margin: 0 auto;
+
+}
+@font-face {
+	font-family: 'Georgia';
+	src: url('../../assets/fonts/georgia.ttf');
+	src: url('../../assets/fonts/georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Arial';
+	src: url('../../assets/fonts/arial.ttf');
+	src: url('../../assets/fonts/arial.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.main-page{
+  background-image: url("../../assets/images/start-screen-background.jpg");
+  position: relative;
+  height: 908px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+header{
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: calc(50% - 1200px / 2);
+    top: 60px;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+#title{
+    position: absolute;
+    width: 184px;
+    height: 35px;
+    left: 0px;
+    top: -20px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color:#F1CDB3;
+    width: max-content;
+}
+#subtitle{
+    position: absolute;
+    width: 179px;
+    height: 15px;
+    left: 4px;
+    top: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color:#FFFFFF;
+    width: max-content;
+    
+} 
+
+.navbar ul{
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: 400;
+    margin-left: 35px;
+    font-family: 'Arial';
+    font-style: normal;
+    color: #CDCDCD;
+}
+#about{
+    border-bottom: solid 3px #F1CDB3;
+}
+#help:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
+#ourpets:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
+#contacts:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
+.start-screen-content{
+    position: absolute;
+    width: 1200px;  
+    height: 728px;
+    left: calc(50% - 1200px / 2);
+    top: 180px;
+}
+#content{
+    position: absolute;
+    width: 460px;
+    height: 322px;
+    top: 163px;
+}
+#heading{
+    position: absolute;
+    width: 310px;
+    height: 114px;
+    left: calc(50% - 310px/2 - 75px);
+    bottom: 175px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+#subheadding{
+    position: absolute;
+    width: 460px;
+    height: 72px;
+    left: calc(50% - 460px/2);
+    bottom: 85px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+
+    color: #CDCDCD;
+}
+.button{
+    padding: 15px 45px;
+    height: 52px;
+    width:207;
+    background: #F1CDB3;
+    border-radius: 100px;
+    text-decoration: none;
+    position: relative;
+    top: 282px;
+        
+}
+
+#content a span {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin: 10px 0px;
+    
+  }
+  .button:hover{
+      background-color: antiquewhite;
+  }
+  #main-puppy{
+    background-image: url("../../assets/images/start-screen-puppy.png");
+    position: absolute;
+    width: 698px;
+    height: 728px;
+    left: calc(50% - 698px/2 + 251px);
+    bottom: 0px;
+
+  }
+ #aboutShelter  {
+    position: absolute;
+    height: 588px;
+    left: 0%;
+    right: 0%;
+    top: 908px;
+    
+    background: #FFFFFF;
+ }
+ #about-content{
+    position: absolute;
+    width: 1200px;
+    height: 408px;
+    left: calc(50% - 1200px/2);
+    top: calc(50% - 408px/2 - 10px);
+ }
+ #about-pets{
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    left: 175px;
+    top: 0px;
+    background-image: url("../../assets/images/about-pets.png");
+ }
+ #petcontent{
+    position: absolute;
+    width: 430px;
+    height: 380px;
+    left: 595px;
+    top: 14px;
+ }
+ #abouttext{
+    position: absolute;
+    width: 370px;
+    height: 90px;
+    left: 0px;
+    top: -32px;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    color: #545454;
+ }
+ #abouttext1{
+    position: absolute;
+    width: 430px;
+    height: 96px;
+    left: 0px;
+    top: 100px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #4C4C4C;
+ }
+ #abouttext2{
+    position: absolute;
+    width: 430px;
+    height: 118px;
+    left: 0px;
+    top: 236px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+    
+    color: #4C4C4C;
+ }
+ .pets{
+    position: absolute;
+    Width:1280px;
+    margin: 0 auto;
+    height: 877px;
+    left: 0%;
+    right: 0%;
+    top: 1497px;
+    
+    background: #F6F6F6;
+ }
+ #pets-content{
+    position: absolute;
+    width: 1200px;
+    height: 697px;
+    left: calc(50% - 1200px/2);
+    top: 80px;
+ }
+ #heading-pet{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 400px;
+    top: 0px;
+    margin:0 auto;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    
+    color: #545454;
+ }
+ .slider{
+    position: absolute;
+    width: 1200px;
+    height: 435px;
+    left: 0px;
+    top: 150px;
+ }
+ #previous{
+    display: flex;
+    align-items: center;
+    padding: 23px 19px;
+    position: absolute;
+    left:40;
+    width: 52px;
+    height: 52px;
+    top: 192px;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;  
+    cursor:pointer;
+ }
+ #previous:hover{
+     background-color:#F1CDB3;
+ }
+ #next{
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 19px;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 1150px;
+    top: 192px;
+
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+ }
+ #next:hover{
+    background-color:#F1CDB3;
+}
+
+#card1{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 105px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor:pointer;
+}
+
+.cards p{
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 98px;
+    top: 280px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    cursor: pointer;
+}
+.Learn-More{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    left: 41.5px;
+    top: 343px;   
+}
+#More{ 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    align-items: center;
+    padding: 10 15px;
+    height: 52px;
+    width: 187px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    background: #FAFAFA;
+}
+#More:hover{
+    background-color:#F1CDB3;
+}
+
+#card2{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 465px;
+    top:0;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor:pointer;
+}
+#card3{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 825px;
+    top: 0px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor:pointer;
+}
+#card1:hover {
+    background: #ffffff;
+  }
+  #card3:hover {
+    background: #ffffff;
+  }
+  #card2:hover {
+    background: #ffffff;
+  }
+#card1:hover button{
+    background-color: #F1CDB3;
+    cursor:pointer;
+}
+#card2:hover button{
+    background-color: #F1CDB3;
+    cursor:pointer;
+}
+#card3:hover button{
+    background-color: #F1CDB3;
+    cursor:pointer;
+}
+#buttonPr{
+    align-items: center;
+    padding: 15px 45px;
+    position: absolute;
+    width: 261px;
+    height: 52px;
+    left: 470px;
+    top: 645px;
+    background: #F1CDB3;
+    border-style: none;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    cursor:pointer;
+}
+#buttonPr:hover{
+    background: #f1d8c6;
+}
+.help{
+    position: absolute;
+    height: 611px;
+    left: 0%;
+    right: 0%;
+    top: 2373px;
+    background: #FFFFFF;
+}
+.help-content{
+    position: absolute;
+    width: 1200px;
+    height: 431px;
+    left: calc(50% - 1200px/2);
+    top: 80px;
+}
+#texthelp{
+    position: absolute;
+    width: 308px;
+    height: 90px;
+    left: 446px;
+    top: 0px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    white-space:nowrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #545454;
+}
+
+.list {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .item h4{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    white-space: nowrap;
+}
+  
+  .item {
+    width: 11%;
+    margin: 34px 54px;
+  }
+
+.donation{
+    position: absolute;
+    width:1280px;
+    margin: 0 auto;
+    height: 462px;
+    left: 0%;
+    right: 0%;
+    top: 2984px;
+    background: #F6F6F6;
+}
+.doncontent{
+    position: absolute;
+    width: 915px;
+    height: 282px;
+    left: calc(50% - 915px/2 + 0.5px);
+    top: 80px;
+}
+#dondog{
+    position: absolute;
+    width: 505px;
+    height: 261px;
+    left: 0px;
+    top: 11px;
+
+    background: url(../../assets/images/donation-dog.png);
+}
+#dontxt{
+    position: absolute;
+    width: 380px;
+    height: 282px;
+    left: 535px;
+    top: 0px;
+}
+ #dontxt h3{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    margin:auto;
+    color: #545454;
+}
+#dontxt p{
+    position: absolute;
+    width: 307px;
+    height: 17px;
+    left: 0px;
+    top: 110px;
+    white-space: nowrap;
+    margin:auto;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+    #dontxt p1{
+    position: absolute;
+    width: 380px;
+    height: 72px;
+    left: 0px;
+    top: 210px;
+
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+}
+#creditCard{
+    align-items: center;
+    position: absolute;
+    width: 349px;
+    height: 43px;
+    top: 147px;
+    margin: 0 auto;
+    background: #F1CDB3;
+    border-radius: 9px;
+    
+}
+#creditCardcn{
+    position: static;
+    width: 319px;
+    height: 23px;
+    left: 15px;
+    top: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+#creditCard img{
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 15px;
+    top: 10px;
+}
+#creditCard p3{
+    position: absolute;
+    width: 274px;
+    height: 23px;
+    left: 60px;
+    top: 10px;
+    white-space: nowrap;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    color: #545454;
+}
+.footerr{
+    position: absolute;
+    height: 350px;
+    left: 0%;
+    right: 0%;
+    top: 3446px;
+}
+
+#fdog{
+    background: url(../../assets/images/footer-background.png);
+    position: relative;
+    height: 350px;
+    width:1280px;
+    margin:0 auto;
+    background-position: 0,0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#footercnt{
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 40px;
+    top: 40px;
+
+}
+#ftpuppy{
+    position: absolute;
+    width: 300px;
+    height: 310px;
+    left: 930px;
+    top: 0px;
+
+    background: url(../../assets/images/footer-puppy.png);
+}
+#contactsft{
+    position: absolute;
+    width: 278px;
+    height: 234px;
+    left: 40px;
+    top: 16px;
+}
+#contactsft h3{
+    position: absolute;
+    height: 90px;
+    left: calc(50% - 278px/2 - 0px);
+    top: -35px;
+    white-space:nowrap;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+#mail{
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 0px;
+    top: 130px;
+}
+#ftmail{
+    position: absolute;
+    top:3px;
+    width: 40px;
+    height: 26px;  
+}
+#footmail{
+    position: absolute;
+    width: 191px;
+    height: 23px;
+    left:60px;
+    top: 5px;
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+#tel{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: calc(50% - 40px/2 - 119px);
+    top: 202px;
+}
+#telnumber{
+    position: absolute;
+    white-space: nowrap;
+    left:60px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+
+    letter-spacing: 0.06em;
+
+    color: #F1CDB3;
+}
+#locations{
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 438px;
+    top: 16px;
+}
+#locations h3{
+    position: absolute;
+    width: 270px;
+    height: 90px;
+    left:35px;
+    top: -35px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+#Boston{
+    position: absolute;
+    width: 302px;
+    height: 46px;
+    left: 35px;
+    top: 124px;
+}
+#Boston p{
+    position: absolute;
+    width: 260px;
+    height: 46px;
+    top: -20px;
+    left: calc(50% - 260px/2 + 21px);
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+#London{
+    position: absolute;
+    width: 302px;
+    height: 32px;
+    left:35px;
+    top: 202px;
+}
+#London p{
+    position: absolute;
+    width: 260px;
+    height: 23px;
+    left: calc(50% - 260px/2 + 21px);
+    top:-20px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+
+    letter-spacing: 0.06em;
+
+    color: #F1CDB3;
+}
