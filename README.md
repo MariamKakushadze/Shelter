@@ -1,2 +1,2 @@
 # Shelter
-https://mariamKakushadze.github.io/shelter/pages/main/index.html#
+https://mariamkakushadze.github.io/Shelter/pages/main/index.html
