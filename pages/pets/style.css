@@ -1,1 +1,286 @@
-{\rtf1}
+@font-face {
+	font-family: 'Georgia';
+	src: url('../../assets/fonts/Georgia.ttf');
+	src: url('../../assets/fonts/Georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Arial';
+	src: url('../../assets/fonts/Arial.ttf');
+	src: url('../../assets/fonts/Arial.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-style: normal;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+.header-container{
+    background: #FFFFFF;
+    height: 120px;;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    cursor:pointer;  
+    padding-top:30px;
+    padding-left: 35px;
+}
+#logo h1{
+    color: #545454;
+    font-family: 'Georgia'; 
+    font-weight:400;
+    font-size: 32px;
+    letter-spacing: 0.06em;
+}
+#logo h4{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    color: #292929;
+    padding-top:5px;
+    letter-spacing: 0.1em;
+}
+.navbar ul{
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 45px;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.navbar a {
+    font-weight: 400;
+    margin-left: 35px;
+    font-family: 'Arial';
+    color: #545454;;
+}
+#about:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
+#help:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
+#ourpets{
+    border-bottom: solid 3px #F1CDB3;
+}
+#contacts:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
+.pets{
+    background: #F6F6F6;
+    width:100%;
+    height:1342px;
+}
+.pets-content{
+    align-items: center;
+    padding-top: 80px;
+}
+#heading{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.cards{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 9px;
+    width: 270px;
+    height: 435px;
+      
+}
+.cards{
+    float:left;
+    width:25%;
+    padding:5px;
+}
+.cards img{
+    width: 270px;
+    height: 270px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    color: #545454;
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+}
+#More{ 
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: hsl(0, 0%, 98%);
+    cursor:pointer;
+    width: 187px;
+    height:52px;
+}
+
+
+.footerr{
+    background: url(../../assets/images/footer-background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 100%;
+    height: 350px;
+    padding: 40px 40px 40px;
+   
+}
+#footercnt{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.foothead h3{
+    white-space:nowrap;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.contacts p { 
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+    
+#locations h3{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+#ftpuppy{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background: url(../../assets/images/footer-puppy.png);
+    width: 300px;
+    height: 310px;
+    margin-right: 40px;
+}
+.foothead h3{
+   padding-left: 30px;
+   padding-top: 20px;
+}
+#footmail{
+    padding-left:35px;
+    padding-top: 40px;
+}
+#footmail1{
+    padding-right: 20px;
+    padding-top: 35px;
+}
+#telnumber{
+    padding-left: 35px;
+    padding-top: 40px;
+}
+#telnumber1{
+    padding-top: 25px;
+}
+#locations h3{
+    padding-top: 20px;
+}
+
+#locations a{
+    padding-top: 40px;
+}
+
+.navigation{
+    display:flex;
+    width: 340px;
+    height: 52px;
+    white-space: nowrap;
+    align-items: center ;
+    padding-left:460px;
+    padding-top: 100px;
+    
+    
+}
+  .pagbat {
+    border: 2px solid #f1cdb3;
+    border-radius: 100%;
+    height: 52px;
+    width: 52px;
+    background-color: white;
+    font-size: 1.2rem;
+    margin: auto 0.5em;
+  }
+  .pagbat a{
+    color:#292929
+  }
+
+  #activep:hover{
+    background-color: #F1CDB3;
+    cursor:pointer;
+  }
+
+  .pagbat:nth-child(3) {
+    background-color: #f1cdb3;
+  }
+  
+  .pagbat:nth-child(3):hover {
+    cursor: pointer;
+  }
+  button:disabled,
+  .disabled {
+    border: 1px solid #b2b2b2;
+    background-color: #f6f6f6;
+    color: #545454;
+  }
+#More:hover{
+    background-color:#F1CDB3;
+}
+.cards:hover{
+    background: #ffffff;
+  }
+.cards:hover #More{
+    background-color: #F1CDB3;
+    cursor:pointer;
+}
