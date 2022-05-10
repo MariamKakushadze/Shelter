@@ -265,10 +265,7 @@
     background-color: #f1cdb3;
   }
   
-  .pagbat:nth-child(3):hover {
-    cursor: pointer;
-    background-color: #fac7a2;
-  }
+ 
   button:disabled,
   .disabled {
     border: 1px solid #b2b2b2;
